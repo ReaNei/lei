@@ -4,10 +4,9 @@ import { Link } from 'gatsby'
 import { rhythm, scale } from '../utils/typography'
 
 // gatsby-browser.js
-//require("../css/prism-okaidia.css")
 require("../css/scroll-bar.css")
-require("../css/prism.css")
-require("../css/prism.js")
+require("../css/prism920.css")
+require("../css/prism920.js")
 
 class Template extends React.Component {
   render() {

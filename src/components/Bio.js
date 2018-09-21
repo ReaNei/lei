@@ -26,12 +26,12 @@ class Bio extends React.Component {
             height: rhythm(2),
           }}
         />
-        <p>
+         <p>
           Written by <strong>Reallei</strong> who lives and works in ShenZhen
           building nothings.{' '}
           <a href="https://twitter.com/Realleicom">
             You can find me on Twitter
-          </a>.
+         </a>.
         </p>
       </div>
     )
