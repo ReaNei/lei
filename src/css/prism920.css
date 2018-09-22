@@ -18,7 +18,7 @@ pre[class*="language-"] {
 	word-break: normal;
 	word-wrap: normal;
 	line-height: 1.5;
-	max-height: 340px;
+	max-height: 500px;
 	overflow-y: scroll;
 
 	-moz-tab-size: 4;

@@ -6,7 +6,6 @@ import { rhythm, scale } from '../utils/typography'
 // gatsby-browser.js
 require("../css/scroll-bar.css")
 require("../css/prism920.css")
-require("../css/prism920.js")
 
 class Template extends React.Component {
   render() {

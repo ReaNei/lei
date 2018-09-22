@@ -40,7 +40,7 @@ date: "2018-09-21"
 ::-webkit-scrollbar-corner {
 	border-radius: 3px;
     background: rgba(0,0,0,0.7);
-    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0);
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0);-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0);-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0);
 }
 ```
 

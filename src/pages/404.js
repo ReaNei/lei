@@ -1,28 +1,26 @@
 import React from 'react'
 import { Link } from "gatsby"
+import Bio2 from '../components/Bio2'
 
 const NotFoundPage = () => (
-  <div align="center">
+  <div style={{ margin: `0 auto`, maxWidth: 650, padding: `1.25rem 1rem` }}>
     <h3 style={{
-			fontFamily: 'Montserrat, sans-serif'
-			}}
-		>
+        fontFamily: 'Montserrat, sans-serif'
+        }}
+    >
           <Link
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
               color: 'inherit',
             }}
-            to={'/'}
+            to={'/test/about'}
           >
             What You Need &#x1F364;
           </Link>
-        </h3>
+    </h3>
     <h1>404 NOTFOUND</h1>
-    <p>
-    <img src="https://png.icons8.com/color/500/3498db/sonic-the-hedgehog-1.png" alt="What You Need" width="128" />
-    </p>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <Bio2 />
   </div>
 )
 

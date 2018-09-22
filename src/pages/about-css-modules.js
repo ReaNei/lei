@@ -1,6 +1,8 @@
 import React from "react"
+//import { Link } from "gatsby"
 import styles from "./about-css-modules.module.css"
 import Container from "../components/container"
+import Bio3 from '../components/Bio3'
 
 console.log(styles)
 
@@ -15,13 +17,16 @@ const User = props => (
 )
 
 export default () => (
+
   <Container>
-    <h1>About CSS Modules</h1>
+
+    <h1>About </h1>
+    <Bio3 />
     <p>CSS Modules are cool</p>
     <User
       username="Reallei"
       avatar="https://png.icons8.com/color/500/3498db/sonic-the-hedgehog-1.png"
-      excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      excerpt="You just hit a route that doesn't exist... the sadness."
     />
 
   </Container>
