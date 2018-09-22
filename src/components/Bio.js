@@ -26,6 +26,26 @@ class Bio extends React.Component {
             height: rhythm(2),
           }}
         />
+          <img
+          src={profilePic}
+          alt={`Reallei`}
+          style={{
+            marginRight: rhythm(1 / 2),
+            marginBottom: 0,
+            width: rhythm(2),
+            height: rhythm(2),
+          }}
+        />
+          <img
+          src={profilePic}
+          alt={`Reallei`}
+          style={{
+            marginRight: rhythm(1 / 2),
+            marginBottom: 0,
+            width: rhythm(2),
+            height: rhythm(2),
+          }}
+        />
          <p>
           Written by <strong>Reallei</strong> who lives and works in ShenZhen
           building nothings.{' '}
