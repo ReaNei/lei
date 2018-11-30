@@ -14,6 +14,16 @@ module.exports = {
         name: 'pages',
       },
     },
+    /*
+    {
+      resolve: 'gatsby-plugin-i18n-tags',
+      options: { // Default options
+      tagPage: 'src/templates/blog-post.js',
+      tagsUrl: '/tags/',
+      langKeyForNull: 'any'
+      }
+    },
+    */
     {
       resolve: `gatsby-transformer-remark`,
       options: {
