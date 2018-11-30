@@ -24,13 +24,13 @@ class Template extends React.Component {
         >
           <Link
             style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
+              boxShadow: '0 2px 0 0 currentColor',
+              textDecoration: 'blink',
               color: 'inherit',
             }}
             to={'/'}
           >
-            What You Need &#x1F680;
+            WhatYouNeed
           </Link>
         </h1>
       )
@@ -40,7 +40,7 @@ class Template extends React.Component {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             marginTop: 0,
-            marginBottom: rhythm(-1),
+            marginBottom: rhythm(-0.8),
           }}
         >
           <Link

@@ -1,9 +1,9 @@
 ---
-title: 一 些 收 藏
+title: I want to find what I want quickly
 date: "2018-09-21"
 ---
 
-> 常用和自认为更好用的工具、软件或网站。
+> 你要个锤子！
 
 ### Linux Tools
 
