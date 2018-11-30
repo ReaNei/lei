@@ -6,10 +6,3 @@
 <h1 align="center">
   What You Need
 </h1>
-
-<p align="center">
-  :rocket:
-</p>
-<h4 align="center">
-  Build with <a href="https://www.gatsbyjs.com/">Gatsbyjs</a>&nbsp;&nbsp;&nbsp;Powered by <a href="https://www.netlify.com/">Netlify</a>
-</h4>
