@@ -1,7 +1,7 @@
 /* 滚动槽 */
 ::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
+    width: 4px;
+    height: 4px;
 }
 ::-webkit-scrollbar-track {
     border-radius: 3px;
