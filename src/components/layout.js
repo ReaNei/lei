@@ -15,7 +15,7 @@ class Template extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
+        <h3
           style={{
             ...scale(1.5),
             marginBottom: rhythm(1.5),
@@ -24,15 +24,15 @@ class Template extends React.Component {
         >
           <Link
             style={{
-              boxShadow: '0 2px 0 0 currentColor',
+              boxShadow: '0 3px 0 0 currentColor',
               textDecoration: 'blink',
               color: 'inherit',
             }}
             to={'/'}
           >
-            WhatYouNeed
-          </Link>
-        </h1>
+            What
+          </Link>YouNeed
+        </h3>
       )
     } else {
       header = (
@@ -40,7 +40,7 @@ class Template extends React.Component {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             marginTop: 0,
-            marginBottom: rhythm(-0.8),
+            marginBottom: rhythm(-0.2),
           }}
         >
           <Link
