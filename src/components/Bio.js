@@ -27,7 +27,7 @@ class Bio extends React.Component {
           }}
         />
          <p>
-          荒川居民，不会我可以学。{' '}
+          荒川居民，我的头可不是面团捏的。{' '}
         </p>
       </div>
     )
