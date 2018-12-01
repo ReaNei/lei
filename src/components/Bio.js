@@ -13,7 +13,7 @@ class Bio extends React.Component {
       <div
         style={{
           display: 'flex',
-          marginBottom: rhythm(2.5),
+          marginBottom: rhythm(1),
         }}
       >
         <img
@@ -21,14 +21,13 @@ class Bio extends React.Component {
           alt={`Reallei`}
           style={{
             marginRight: rhythm(1 / 2),
-            marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
+            marginBottom: rhythm(-1),
+            width: rhythm(1),
+            height: rhythm(1),
           }}
         />
          <p>
-          Written by <strong>Reallei</strong> who lives and works in ShenZhen
-          building nothings.{' '}
+          荒川居民，不会我可以学。{' '}
         </p>
       </div>
     )
