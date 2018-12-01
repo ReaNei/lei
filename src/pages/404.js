@@ -14,7 +14,7 @@ const NotFoundPage = () => (
               textDecoration: 'none',
               color: 'inherit',
             }}
-            to={'/test/about'}
+            to={'/'}
           >
             What You Need &#x1F364;
           </Link>
