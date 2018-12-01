@@ -4,7 +4,7 @@ import Bio2 from '../components/Bio2'
 
 const NotFoundPage = () => (
   <div style={{ margin: `0 auto`, maxWidth: 650, padding: `1.25rem 1rem` }}>
-    <h5 style={{
+    <h3 style={{
         fontFamily: 'Montserrat, sans-serif'
         }}
     >
@@ -18,8 +18,8 @@ const NotFoundPage = () => (
           >
             What You Need &#x1F364;
           </Link>
-    </h5>
-    <h1>404 NOT FOUND</h1>
+    </h3>
+    <h3>404 NOT FOUND</h3>
     <Bio2 />
   </div>
 )
