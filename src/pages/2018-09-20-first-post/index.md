@@ -28,13 +28,13 @@ $ ./configure && make
 
 ### Google Plugins
 
-- [Octotree]
+- Octotree
 
-- [CaretTab]
+- CaretTab
 
-- [crxMouse]
+- crxMouse
 
-- [Restlet Client]
+- Restlet Client
 
 ### Gatsbyjs Blog
 
