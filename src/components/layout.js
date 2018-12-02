@@ -31,7 +31,7 @@ class Template extends React.Component {
             to={'/'}
           >
             What
-          </Link><a href="https://github.com/ReaNei">YouNeed</a>
+          </Link>YouNeed
         </h3>
       )
     } else {
