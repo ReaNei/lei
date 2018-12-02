@@ -28,7 +28,7 @@ class Template extends React.Component {
               textDecoration: 'blink',
               color: 'inherit',
             }}
-            to={'/'}
+            to={'https://github.com/ReaNei'}
           >
             What
           </Link>YouNeed
