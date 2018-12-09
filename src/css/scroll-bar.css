@@ -1,6 +1,6 @@
 /* 滚动槽 */
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 3px;
     height: 5px;
 }
 ::-webkit-scrollbar-track {
