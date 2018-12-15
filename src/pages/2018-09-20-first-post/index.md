@@ -10,20 +10,6 @@ date: "2018-09-21"
 * [tmux][1.10] ( [README][1.11] )
 
 ```bash
-To get and build the latest from version control:To get and build the latest from version control:
-$ git clone https://github.com/tmux/tmux.git
-$ cd tmux
-$ sh autogen.sh
-$ ./configure && make
-$ git clone https://github.com/tmux/tmux.git
-$ cd tmux
-$ sh autogen.sh
-$ ./configure && make
-To get and build the latest from version control:
-$ git clone https://github.com/tmux/tmux.git
-$ cd tmux
-$ sh autogen.sh
-$ ./configure && make
 To get and build the latest from version control:
 $ git clone https://github.com/tmux/tmux.git
 $ cd tmux
