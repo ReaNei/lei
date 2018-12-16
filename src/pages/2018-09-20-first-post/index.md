@@ -33,7 +33,7 @@ $ ./configure && make
 - crxMouse
 - Restlet Client
 
-### Gatsbyjs Blog
+### Blog
 
 + [Gatsbyjs][4.10]
 + [Netlify][4.20]
