@@ -5,18 +5,6 @@ date: "2018-09-21"
 
 > 收 纳 收 纳
 
-### Linux Tools
-
-* [tmux][1.10] ( [README][1.11] )
-
-```bash
-To get and build the latest from version control:
-$ git clone https://github.com/tmux/tmux.git
-$ cd tmux
-$ sh autogen.sh
-$ ./configure && make
-```
-
 ### Windows Tools
 
 * [MobaXterm][2.10]
