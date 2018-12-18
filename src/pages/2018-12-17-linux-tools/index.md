@@ -29,8 +29,8 @@ $ ./configure && make
                    (.-.).-.)
       _______ooo__(    ^    )____________
      /             '-.___.-'             \
-    |         		 ReaNei		          |
-	|         https://reallei.com         |
+    |         	     ReaNei	          |
+    |         https://reallei.com         |
      \________________________ooo________/
                    |_  |  _|  UUU
                    \___|___/
