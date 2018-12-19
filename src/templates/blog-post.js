@@ -44,7 +44,7 @@ class BlogPostTemplate extends React.Component {
           style={{
             display: 'flex',
             flexWrap: 'wrap',
-            justifyContent: 'space-between',
+            justifyContent: 'flex-end',
             listStyle: 'none',
             padding: 0,
           }}
@@ -52,7 +52,8 @@ class BlogPostTemplate extends React.Component {
           <li>
             {
               previous &&
-              <Link to={previous.fields.slug} rel="prev">{previous.frontmatter.title}
+              <Link to={previous.fields.slug} rel="prev">
+                {previous.frontmatter.title}
               </Link>
             }
           </li>
