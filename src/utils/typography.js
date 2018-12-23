@@ -3,6 +3,7 @@ import githubTheme from 'typography-theme-github'
 
 
 const typography = new Typography(githubTheme)
+githubTheme.baseLineHeight = 2
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {
