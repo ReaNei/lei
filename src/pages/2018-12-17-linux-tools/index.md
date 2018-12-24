@@ -22,8 +22,8 @@ Hello World!
   C-b $									重命名当前会话
   C-b ，								重命名当前窗口
   C-b c 								新建窗口
-  C-b p									切换至上个窗口
-  C-b n									切换至下个窗口
+  C-b p									切换至上个窗口（previous）
+  C-b n									切换至下个窗口（next）
   C-b 0-9								切换窗口0-9
   C-b w									查看窗口列表
   C-b & /C-d /exit	 					终止窗口
