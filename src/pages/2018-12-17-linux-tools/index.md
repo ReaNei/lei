@@ -8,7 +8,7 @@ Hello World!
 ### tmux
 
 > [tmux][1.1] is a terminal multiplexer. See the [tmux(1) manual page][1.2].
-```Bash
+``` BASH
 # tmux new -s session1 					新建会话
 # tmux ls								会话列表
 # tmux a -t session1    				进入会话
@@ -40,7 +40,7 @@ Hello World!
 
 > [Boxes][2.1] is a command line filter program that draws ASCII art boxes around your input text ([examples][2.2]).
 
-```
+``` BASH
 # echo "ReaNei" | boxes -d santa -a c -s 30x17
 
                      .-"``"-.
