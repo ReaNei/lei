@@ -16,10 +16,11 @@ date: "2018-09-21"
 
 ### Google Plugins
 
-- Octotree
-- CaretTab
-- crxMouse
-- Restlet Client
+- Octotree - Code tree for Github
+- CaretTab - 一个精美简约/完全可定制的新式标签页
+- crxMouse - 鼠标手势
+- Restlet Client - REST API Testing
+- Aerys - 窗口标签管理器
 
 ### Blog
 
