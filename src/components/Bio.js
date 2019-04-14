@@ -27,7 +27,7 @@ class Bio extends React.Component {
           }}
         />
          <p>
-          1994 by ReaNei. Old man...{' '}
+          Hello ReaNei.{' '}
         </p>
       </div>
     )
