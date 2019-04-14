@@ -13,7 +13,7 @@ date: "2018-09-21"
 * [SoapUI][2.50]
 
 
-### Google Plugins
+### Chrome Plugins
 
 - [Octotree][3.10]
 - [CaretTab][3.20]
