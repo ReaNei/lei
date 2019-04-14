@@ -9,14 +9,15 @@ job.
 
 ### tmux
 
-> [tmux][1.1] is a terminal multiplexer. See the [tmux(1) manual page][1.2].
-``` BASH
+[tmux][1.1] is a terminal multiplexer. See the [tmux(1) manual page][1.2].
+``` bash
 # tmux new -s session1 					新建会话
 # tmux ls								会话列表
 # tmux a -t session1    				进入会话
 # tmux kill-session -t session1			终止会话
 # tmux rename -t session1 session2		重命名会话
-
+```
+```
   C-b d									退出会话，保持后台运行
   C-b C-z								暂停tmux客户端
   C-b s									查看会话列表
@@ -40,9 +41,9 @@ job.
 
 ### boxes
 
-> [Boxes][2.1] is a command line filter program that draws ASCII art boxes around your input text ([examples][2.2]).
+[Boxes][2.1] is a command line filter program that draws ASCII art boxes around your input text ([examples][2.2]).
 
-``` BASH
+``` bash
 # echo "ReaNei" | boxes -d santa -a c -s 30x17
 
                      .-"``"-.
