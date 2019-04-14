@@ -1,9 +1,11 @@
 ---
-title: Linux Tools
+title: 工欲善其事，必先利其器。
 date: "2018-12-17"
 ---
 
-Hello World!
+To do a good job, an artisan needs the best tools (idiom).
+Good tools are prerequisite the successful execution of a
+job.
 
 ### tmux
 
