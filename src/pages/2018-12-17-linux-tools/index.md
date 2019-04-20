@@ -39,7 +39,7 @@ job.
   C-b x /exit							关闭当前窗格
 ```
 
-### boxes &#x1F354
+### boxes &#x1F354;
 
 [Boxes][2.1] is a command line filter program that draws ASCII art boxes around your input text ([examples][2.2]).
 
