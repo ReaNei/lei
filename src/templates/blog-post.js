@@ -44,25 +44,6 @@ class BlogPostTemplate extends React.Component {
                   <h6>WhatYouNeed.</h6>
               </Link>
         </center>
-        /*
-        <ul
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'center',
-            listStyle: 'none',
-            padding: 0,
-          }}
-        >
-          <li>
-            {
-              <Link style={{ boxShadow: '0', color: 'inherit' , textDecoration: 'none' }} to={'/'}>
-                <h6>WhatYouNeed.</h6>
-              </Link>
-            }
-          </li>
-        </ul>
-        */
       </Layout>
     )
   }
