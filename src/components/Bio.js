@@ -27,7 +27,7 @@ class Bio extends React.Component {
           }}
         />
          <p>
-            <strong><a href="https://github.com/ReaNei" >Hello ReaNei.</a></strong> {' // View on Github.'}
+            <strong><a href="https://github.com/ReaNei" >Hello ReaNei.</a></strong> {' // View on Github. '}
         </p>
       </div>
     )
