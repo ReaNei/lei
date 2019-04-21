@@ -24,14 +24,8 @@ function func {
         rm -rf $file_bk
 }
 #
-        chmod u+x $file_func
-        echo "Linux Shell Script $file_func" |boxes -d peek -p h10 > $file_bk
-        cat $file_bk |boxes -d pound-cmt -i none >> $file_func
-        rm -rf $file_bk
-}
-#
 func_bash() {
-        read -p "Do you want create $location? [Y|N]: "
+        read -p "Do you want create $location? [yes|no]: "
         case $REPLY in
         Y|yes)
                 mkdir -p $location
@@ -43,7 +37,7 @@ func_bash() {
                 exit;;
         *)
                 func_bash
-        #       echo "Please enter Y|yes or N|no!"
+        #       echo "Please enter Yes/Y or No/N!"
         esac
 }
 #
@@ -59,14 +53,15 @@ then
                 exit
         else
                 func
+                echo "$file_func created!" |boxes -d peek -p h2
         fi
 else
         echo "$location is not exist!"
         sleep 1
         echo -n "but..."
         sleep 1
-        clear
-        # create
+#       clear
+#       create location
         func_bash
 fi
 #
