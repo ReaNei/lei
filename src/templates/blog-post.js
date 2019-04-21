@@ -40,7 +40,7 @@ class BlogPostTemplate extends React.Component {
         />
         <Bio />
         <center>
-              <Link style={{ boxShadow: '0', color: 'inherit' , textDecoration: 'none'}} to={'www.baidu.com'}>
+              <Link style={{textDecoration: 'none'}} to={'/'}>
                   <h6>WhatYouNeed.</h6>
               </Link>
         </center>
