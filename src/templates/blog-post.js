@@ -52,7 +52,7 @@ class BlogPostTemplate extends React.Component {
           <li>
             {
               <Link style={{ boxShadow: '0', color: 'inherit' , textDecoration: 'none' }} to={'/'}>
-                <h5>GO BACK</h5>
+                <h5>WhatYouNeed.</h5>
               </Link>
             }
           </li>
