@@ -39,11 +39,18 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Bio />
-        <center>
+        <p
+          style={{
+            display: 'flex',
+            flexWrap: 'nowrap',
+            justifyContent: 'center',
+            padding: 0,
+          }}
+        >
               <Link style={{textDecoration: 'none'}} to={'/'}>
                   <h6>WhatYouNeed.</h6>
               </Link>
-        </center>
+        </p>
       </Layout>
     )
   }
