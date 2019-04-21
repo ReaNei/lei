@@ -13,7 +13,6 @@ class Bio3 extends React.Component {
       <div
         style={{
           display: 'flex',
-          justifyContent: 'center',
           marginBottom: rhythm(2.5),
         }}
       >
@@ -23,10 +22,13 @@ class Bio3 extends React.Component {
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
+            width: rhythm(1),
+            height: rhythm(1),
           }}
         />
+        <p>
+          Oops...{' '}
+        </p>
       </div>
     )
   }
