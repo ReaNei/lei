@@ -27,40 +27,38 @@ function func {
 }
 #
 func_bash() {
-        read -p "Do you want create $location? [yes|no]: "
+        read -p "Do you want create $location? [Yes|No]: "
         case $REPLY in
         Y|yes)
                 mkdir -p $location
                 func
-                echo "$file_func created!"
+                echo "$file_func created!" |boxes -d unicornsay -p h2
                 exit;;
         N|no)
-                echo "OK, Bye..."
+                echo "OK, Bye..." |boxes -d unicornsay -p h2
                 exit;;
         *)
+                echo "Please enter Yes/Y or No/N!" |boxes -d peek -p h2
                 func_bash
-        #       echo "Please enter Yes/Y or No/N!"
         esac
 }
 #
-if [ $# = 0 ]
+if [ $# != 1 ]
 then
-        echo "Please enter: ./xfile filename" |boxes -d peek -p h2
+        echo "Please enter: ./shell filename" |boxes -d peek -p h2
         exit
 elif [ -d $location ]
 then
         if [ -e $file_func ]
         then
-                echo "$file_func is exist!"
+                echo "$file_func is exist!" |boxes -d peek -p h2
                 exit
         else
                 func
                 echo "$file_func created!" |boxes -d peek -p h2
         fi
 else
-        echo "$location is not exist!"
-        sleep 1
-        echo -n "but..."
+        echo -e "$location is not exist! \nbut..." |boxes -d unicornthink -p h2
         sleep 1
 #       clear
 #       create location
