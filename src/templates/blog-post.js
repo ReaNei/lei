@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { Link,graphql } from 'gatsby'
 import get from 'lodash/get'
 
-import Bio from '../components/Bio'
+import Bio from '../components/Bio3'
 import Layout from '../components/layout'
 import { rhythm, scale } from '../utils/typography'
 
