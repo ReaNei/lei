@@ -44,7 +44,7 @@ class BlogPostTemplate extends React.Component {
           style={{
             display: 'flex',
             flexWrap: 'wrap',
-            justifyContent: 'flex-end',
+            justifyContent: ''space-around',
             listStyle: 'none',
             padding: 0,
           }}
@@ -52,7 +52,7 @@ class BlogPostTemplate extends React.Component {
           <li>
             {
               <Link style={{ boxShadow: '0', color: 'inherit' , textDecoration: 'none' }} to={'/'}>
-                <h5>WhatYouNeed.</h5>
+                <h6>WhatYouNeed.</h6>
               </Link>
             }
           </li>
