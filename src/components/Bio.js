@@ -27,7 +27,7 @@ class Bio extends React.Component {
           }}
         />
          <p>
-            <strong>Hello ReaNei.</strong> {' &#x1F642; '}
+            <strong>Hello ReaNei </strong> &#x1F642;  {' '}
         </p>
       </div>
     )
