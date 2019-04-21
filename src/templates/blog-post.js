@@ -39,12 +39,17 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Bio />
-
+        <center>
+              <Link style={{ boxShadow: '0', color: 'inherit' , textDecoration: 'none'}} to={'/'}>
+                  <h6>WhatYouNeed.</h6>
+              </Link>
+        </center>
+        /*
         <ul
           style={{
             display: 'flex',
             flexWrap: 'wrap',
-            justifyContent: 'space-around',
+            justifyContent: 'center',
             listStyle: 'none',
             padding: 0,
           }}
@@ -57,6 +62,7 @@ class BlogPostTemplate extends React.Component {
             }
           </li>
         </ul>
+        */
       </Layout>
     )
   }
