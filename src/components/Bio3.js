@@ -13,6 +13,7 @@ class Bio3 extends React.Component {
       <div
         style={{
           display: 'flex',
+          justifyContent: 'center',
           marginBottom: rhythm(2.5),
         }}
       >
@@ -26,11 +27,6 @@ class Bio3 extends React.Component {
             height: rhythm(2),
           }}
         />
-         <p>
-          Oops...{' '}
-          <br />
-          You just hit a route that doesn&#39;t exist... the sadness.
-        </p>
       </div>
     )
   }
