@@ -27,18 +27,21 @@ function func {
 }
 #
 func_bash() {
-        read -p "Do you want create $location? [Yes|No]: "
+        read -n 1 -p "Do you want create $location? [Yes|No]: "
         case $REPLY in
-        Y|yes)
+        Y|y)
                 mkdir -p $location
                 func
+				echo
                 echo "$file_func created!" |boxes -d unicornsay -p h2
                 exit;;
-        N|no)
-                echo "OK, Bye..." |boxes -d unicornsay -p h2
+        N|n)
+				echo
+				echo "OK, Bye..." |boxes -d unicornsay -p h2
                 exit;;
         *)
-                echo "Please enter Yes/Y or No/N!" |boxes -d peek -p h2
+                echo
+				echo "Please enter Y or N!" |boxes -d peek -p h2
                 func_bash
         esac
 }
