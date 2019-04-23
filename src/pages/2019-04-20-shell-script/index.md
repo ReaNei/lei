@@ -69,3 +69,60 @@ else
 fi
 #
 ```
+
+``` bash
+#!/bin/bash
+# /*       _\|/_
+#          (o o)
+#  +----oOO-{_}-OOo---------------------------------------+
+#  |          Linux Shell Script /root/bash/menu          |
+#  +-----------------------------------------------------*/
+#
+function menu {
+        clear
+        echo
+        echo -e "\t\tSya Admin Menu\n"
+        echo -e "\t1. Desplay disk space"
+        echo -e "\t2. Desplay logged on users"
+        echo -e "\t3. Desplay memory usage"
+        echo -e "\t0. Exit program"
+        echo -en "\n\tEnter option: "
+        read -n 1 option
+}
+
+function diskspace {
+        clear
+        df -k
+}
+
+function whoseon {
+        clear
+        who
+}
+
+function memusage {
+        clear
+        free
+}
+
+while [ 1 ]
+do
+        menu
+        case $option in
+        0)
+                break;;
+        1)
+                diskspace;;
+        2)
+                whoseon;;
+        3)
+                memusage;;
+        *)
+                echo -e "\n\n\t\tSorry, wrong selection"
+        esac
+        echo -en "\n\t\tHit any key to continue"
+        read -t 2 -n 1 line
+done
+clear
+```
+
