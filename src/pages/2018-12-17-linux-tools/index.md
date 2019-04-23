@@ -64,7 +64,7 @@ job.
                    (__/ \__)
 ```
 Building from Source.
-```
+``` bash
 $ wget https://github.com/ascii-boxes/boxes/archive/v1.3.tar.gz
 $ cd boxes-1.3/
 # gcc/flex/bison
